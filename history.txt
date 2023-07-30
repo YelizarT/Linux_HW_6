@@ -1,0 +1,12 @@
+
+   1  cd
+   2  cd Documents
+   3  mkdir Linux_HW_6
+   4  cd Linux_HW_6
+   5  echo "30.07.23" > NewFile.txt
+   6  df -h / >> NewFile.txt
+   7  history | tail -n 5 >> NewFile.txt
+   8  cat /proc/cpuinfo
+   9  grep 'vendor_id' /proc/cpuinfo | sort -u >> NewFile.txt
+   10 nano NewFile.txt
+   11 history > history.txt
